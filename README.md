@@ -8,7 +8,13 @@ Step by Step guide
 
 2.(Optional) Right click the icon that appears on the screen looking like steam and click Hide floating screen to remove that shitty overlay
 
-3.Copy the other 2 files (millennium ones) and paste them to C:/Program Files(x86)/steam/ (bascicly the steam folder)
+3.First run 
+'''Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+'''
+Then
+'''
+iex "& { $(irm 'clemdotla.github.io/luatools-installer/install-plugin.ps1') } -DownloadLink 'https://github.com/clemdotla/steamtools-collection/releases/download/Latest/steamtools-collection.zip' -PluginName 'steamtools-collection'"
+'''
 
 4.Now restart steam (startup will take longer) and go to store and search for any game and look for a add through lua tools button and click on it
 
