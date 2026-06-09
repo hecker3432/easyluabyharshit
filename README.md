@@ -11,6 +11,7 @@ Step by Step guide
 3.First run in powershell (admin)
 
 ```Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass```
+
 Then
 
 ```iex "& { $(irm 'clemdotla.github.io/luatools-installer/install-plugin.ps1') } -DownloadLink 'https://github.com/clemdotla/steamtools-collection/releases/download/Latest/steamtools-collection.zip' -PluginName 'steamtools-collection'"```
